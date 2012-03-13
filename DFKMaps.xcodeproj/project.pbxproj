@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEBBEB58150F084300C8C261 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEBBEB57150F084300C8C261 /* UIKit.framework */; };
+		FEBBEB5A150F084300C8C261 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEBBEB59150F084300C8C261 /* Foundation.framework */; };
+		FEBBEB5C150F084300C8C261 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEBBEB5B150F084300C8C261 /* CoreGraphics.framework */; };
+		FEBBEB62150F084300C8C261 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEBBEB60150F084300C8C261 /* InfoPlist.strings */; };
+		FEBBEB64150F084300C8C261 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBBEB63150F084300C8C261 /* main.m */; };
+		FEBBEB68150F084300C8C261 /* DFKMapsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBBEB67150F084300C8C261 /* DFKMapsAppDelegate.m */; };
+		FEBBEB6B150F084300C8C261 /* DFKMapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBBEB6A150F084300C8C261 /* DFKMapsViewController.m */; };
+		FEBBEB6E150F084300C8C261 /* DFKMapsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEBBEB6C150F084300C8C261 /* DFKMapsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FEBBEB53150F084300C8C261 /* DFKMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFKMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEBBEB57150F084300C8C261 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FEBBEB59150F084300C8C261 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FEBBEB5B150F084300C8C261 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FEBBEB5F150F084300C8C261 /* DFKMaps-Info.plist */ = {isa = PBXFileReference; path = "DFKMaps-Info.plist"; sourceTree = "<group>"; };
+		FEBBEB61150F084300C8C261 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FEBBEB63150F084300C8C261 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEBBEB65150F084300C8C261 /* DFKMaps-Prefix.pch */ = {isa = PBXFileReference; path = "DFKMaps-Prefix.pch"; sourceTree = "<group>"; };
+		FEBBEB66150F084300C8C261 /* DFKMapsAppDelegate.h */ = {isa = PBXFileReference; path = DFKMapsAppDelegate.h; sourceTree = "<group>"; };
+		FEBBEB67150F084300C8C261 /* DFKMapsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFKMapsAppDelegate.m; sourceTree = "<group>"; };
+		FEBBEB69150F084300C8C261 /* DFKMapsViewController.h */ = {isa = PBXFileReference; path = DFKMapsViewController.h; sourceTree = "<group>"; };
+		FEBBEB6A150F084300C8C261 /* DFKMapsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFKMapsViewController.m; sourceTree = "<group>"; };
+		FEBBEB6D150F084300C8C261 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DFKMapsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEBBEB50150F084300C8C261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBBEB58150F084300C8C261 /* UIKit.framework in Frameworks */,
+				FEBBEB5A150F084300C8C261 /* Foundation.framework in Frameworks */,
+				FEBBEB5C150F084300C8C261 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEBBEB48150F084300C8C261 = {
+			isa = PBXGroup;
+			children = (
+				FEBBEB5D150F084300C8C261 /* DFKMaps */,
+				FEBBEB56150F084300C8C261 /* Frameworks */,
+				FEBBEB54150F084300C8C261 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEBBEB54150F084300C8C261 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEBBEB53150F084300C8C261 /* DFKMaps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEBBEB56150F084300C8C261 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEBBEB57150F084300C8C261 /* UIKit.framework */,
+				FEBBEB59150F084300C8C261 /* Foundation.framework */,
+				FEBBEB5B150F084300C8C261 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEBBEB5D150F084300C8C261 /* DFKMaps */ = {
+			isa = PBXGroup;
+			children = (
+				FEBBEB66150F084300C8C261 /* DFKMapsAppDelegate.h */,
+				FEBBEB67150F084300C8C261 /* DFKMapsAppDelegate.m */,
+				FEBBEB69150F084300C8C261 /* DFKMapsViewController.h */,
+				FEBBEB6A150F084300C8C261 /* DFKMapsViewController.m */,
+				FEBBEB6C150F084300C8C261 /* DFKMapsViewController.xib */,
+				FEBBEB5E150F084300C8C261 /* Supporting Files */,
+			);
+			path = DFKMaps;
+			sourceTree = "<group>";
+		};
+		FEBBEB5E150F084300C8C261 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEBBEB5F150F084300C8C261 /* DFKMaps-Info.plist */,
+				FEBBEB60150F084300C8C261 /* InfoPlist.strings */,
+				FEBBEB63150F084300C8C261 /* main.m */,
+				FEBBEB65150F084300C8C261 /* DFKMaps-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEBBEB52150F084300C8C261 /* DFKMaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEBBEB71150F084300C8C261 /* Build configuration list for PBXNativeTarget "DFKMaps" */;
+			buildPhases = (
+				FEBBEB4F150F084300C8C261 /* Sources */,
+				FEBBEB50150F084300C8C261 /* Frameworks */,
+				FEBBEB51150F084300C8C261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DFKMaps;
+			productName = DFKMaps;
+			productReference = FEBBEB53150F084300C8C261 /* DFKMaps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEBBEB4A150F084300C8C261 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "ajay@sabnetworks.com";
+			};
+			buildConfigurationList = FEBBEB4D150F084300C8C261 /* Build configuration list for PBXProject "DFKMaps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FEBBEB48150F084300C8C261;
+			productRefGroup = FEBBEB54150F084300C8C261 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEBBEB52150F084300C8C261 /* DFKMaps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEBBEB51150F084300C8C261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBBEB62150F084300C8C261 /* InfoPlist.strings in Resources */,
+				FEBBEB6E150F084300C8C261 /* DFKMapsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEBBEB4F150F084300C8C261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBBEB64150F084300C8C261 /* main.m in Sources */,
+				FEBBEB68150F084300C8C261 /* DFKMapsAppDelegate.m in Sources */,
+				FEBBEB6B150F084300C8C261 /* DFKMapsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FEBBEB60150F084300C8C261 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEBBEB61150F084300C8C261 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FEBBEB6C150F084300C8C261 /* DFKMapsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEBBEB6D150F084300C8C261 /* en */,
+			);
+			name = DFKMapsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEBBEB6F150F084300C8C261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FEBBEB70150F084300C8C261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEBBEB72150F084300C8C261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DFKMaps/DFKMaps-Prefix.pch";
+				INFOPLIST_FILE = "DFKMaps/DFKMaps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FEBBEB73150F084300C8C261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DFKMaps/DFKMaps-Prefix.pch";
+				INFOPLIST_FILE = "DFKMaps/DFKMaps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEBBEB4D150F084300C8C261 /* Build configuration list for PBXProject "DFKMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBBEB6F150F084300C8C261 /* Debug */,
+				FEBBEB70150F084300C8C261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEBBEB71150F084300C8C261 /* Build configuration list for PBXNativeTarget "DFKMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBBEB72150F084300C8C261 /* Debug */,
+				FEBBEB73150F084300C8C261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEBBEB4A150F084300C8C261 /* Project object */;
+}
